@@ -1,0 +1,12 @@
+/Users/TAKAMASA/.rbenv/versions/2.2.3/bin/ruby -r ./siteconf20151005-75157-chfc1o.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.bundle ./.gem.20151005-75157-ai8oni
